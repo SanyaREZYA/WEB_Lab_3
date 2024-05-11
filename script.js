@@ -92,7 +92,7 @@ function checkPostIndex() {
 function checkAddress() {
     let address = addressInput.value;
 
-    if(address =! null) {
+    if (address = ! null) {
         addressInput.style.border = "1px green solid";
         addressError.style.display = "none";
     } else {
