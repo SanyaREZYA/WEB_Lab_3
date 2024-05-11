@@ -27,7 +27,7 @@ function checkName() {
     let firstName = firstNameInput.value;
     let lastName = lastNameInput.value;
 
-     if (/^[a-zA-Z '-]+$/.test(firstName)) {
+    if (/^[a-zA-Z '-]+$/.test(firstName)) {
         firstNameInput.style.border = "1px green solid";
         firstNameError.style.display = "none";
     } else {
@@ -48,14 +48,13 @@ function checkEmail() {
     let email = emailInput.value;
 
     if (/@/.test(email)) {
-        emailInput.style.border = "1px green solid"
+        emailInput.style.border = "1px green solid";
         emailError.style.display = "none";
     } else {
-        emailInput.style.border = "1px red solid"
+        emailInput.style.border = "1px red solid";
         emailError.style.display = "block";
     }
 }
-
 
 function checkLocation() {
     let country = countryInput.value;
@@ -82,10 +81,22 @@ function checkPostIndex() {
     let index = postIndexInput.value;
 
     if (/^\d{5}$/.test(index)) {
-        postIndexInput.style.border = "1px green solid"
+        postIndexInput.style.border = "1px green solid";
         postIndexError.style.display = "none";
     } else {
-        postIndexInput.style.border = "1px red solid"
+        postIndexInput.style.border = "1px red solid";
         postIndexError.style.display = "block";
     }
 }
+
+function checkAddress() {
+    let address = addressInput.value;
+
+    if(address =! null) {
+        addressInput.style.border = "1px green solid";
+        addressError.style.display = "none";
+    } else {
+        addressInput.style.border = "1px red solid";
+        addressError.style.display = "block";
+    }
+} 
