@@ -8,16 +8,42 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="body">
     <div class="login-form">
-        <input type="text" placeholder="First name...">
-        <input type="text" placeholder="Last name...">
-        <input type="text" placeholder="E-mail...">
-        <input type="text" placeholder="Country..">
-        <input type="text" placeholder="City...">
-        <input type="text" placeholder="Address...">
-        <input type="text" placeholder="Post index...">
-        <button class="button">Send</button>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="First name..." id="firstName">
+            <img src="images/warning.png" alt="" id="firstNameError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="Last name..." id="lastName">
+            <img src="images/warning.png" alt="" id="lastNameError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="email" placeholder="E-mail..." id="email">
+            <img src="images/warning.png" alt="" id="emailError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="Country.." id="country">
+            <img src="images/warning.png" alt="" id="countryError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="City..." id="city">
+            <img src="images/warning.png" alt="" id="cityError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="Address..." id="address">
+            <img src="images/warning.png" alt="" id="addressError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="Post index..." id="postIndex">
+            <img src="images/warning.png" alt="" id="postIndexError">
+        </div>
+
+        <button class="button" onclick="checkData()">Send</button>
     </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
