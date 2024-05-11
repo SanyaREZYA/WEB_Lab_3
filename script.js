@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 const firstNameInput = document.querySelector("#firstName");
 const lastNameInput = document.querySelector("#lastName");
