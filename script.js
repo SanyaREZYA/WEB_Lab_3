@@ -33,6 +33,7 @@ function checkName() {
     } else {
         firstNameInput.style.border = "1px red solid";
         firstNameError.style.display = "block";
+        alert("Enter correct first name (only letters)!");
     }
 
     if (/^[a-zA-Z '-]+$/.test(lastName)) {
@@ -41,6 +42,7 @@ function checkName() {
     } else {
         lastNameInput.style.border = "1px red solid";
         lastNameError.style.display = "block";
+        alert("Enter correct last name (only letters)!");
     }
 }
 
@@ -53,6 +55,7 @@ function checkEmail() {
     } else {
         emailInput.style.border = "1px red solid";
         emailError.style.display = "block";
+        alert("Enter correct email (must have @)!");
     }
 }
 
@@ -66,6 +69,7 @@ function checkLocation() {
     } else {
         countryInput.style.border = "1px red solid";
         countryError.style.display = "block";
+        alert("Enter correct country name (only letters)!");
     }
 
     if (/^[a-zA-Z '-]+$/.test(city)) {
@@ -74,6 +78,7 @@ function checkLocation() {
     } else {
         cityInput.style.border = "1px red solid";
         cityError.style.display = "block";
+        alert("Enter correct city name (only letters)!");
     }
 }
 
@@ -86,6 +91,7 @@ function checkPostIndex() {
     } else {
         postIndexInput.style.border = "1px red solid";
         postIndexError.style.display = "block";
+        alert("Enter correct post index (only numbers)!");
     }
 }
 
@@ -98,5 +104,6 @@ function checkAddress() {
     } else {
         addressInput.style.border = "1px red solid";
         addressError.style.display = "block";
+        alert("Enter address!");
     }
 } 
