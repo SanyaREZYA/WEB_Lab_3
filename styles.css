@@ -68,6 +68,7 @@
     .login-form {
         width: 375px;
         height: 500px;
+        padding-right: 10px;
     }
 
     .input {
