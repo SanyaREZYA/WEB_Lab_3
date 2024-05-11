@@ -63,3 +63,14 @@
     background-color: white;
     color: var(--button-color);
 }
+
+@media screen and (max-width: 425px)  {
+    .login-form {
+        width: 375px;
+        height: 500px;
+    }
+
+    .input {
+        width: 300px;
+    }
+}
