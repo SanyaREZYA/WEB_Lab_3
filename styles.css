@@ -6,6 +6,7 @@
 
 .body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -74,4 +75,23 @@
     .input {
         width: 300px;
     }
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+}
+
+a {
+    font-size: 2em;
+    color: white;
+}
+
+._little-size-form {
+    height: 300px;
 }

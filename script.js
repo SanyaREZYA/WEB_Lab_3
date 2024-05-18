@@ -99,4 +99,4 @@ function checkAddress() {
         addressInput.style.border = "1px red solid";
         addressError.style.display = "block";
     }
-} 
+}
