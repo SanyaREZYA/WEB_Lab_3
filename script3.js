@@ -28,4 +28,4 @@ rectangle.addEventListener('mouseout', () => {
     moveRectangle();
 });
 
-setInterval(moveRectangle, 1000);
+setInterval(moveRectangle, 700);
