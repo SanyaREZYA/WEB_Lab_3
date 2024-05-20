@@ -1,7 +1,7 @@
 "use strict";
 
-const resultList = document.querySelector('#result');
 const input = document.querySelector('#inputString');
+const resultList = document.querySelector('#result');
 
 function splitString() {
   let inputString = input.value;
