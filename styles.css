@@ -102,3 +102,7 @@ a {
     height: 300px;
     margin-bottom: 100px;
 }
+
+._form_bg_white {
+    background-color: #ffffff;
+}
